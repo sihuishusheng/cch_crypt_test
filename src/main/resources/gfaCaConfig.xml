@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<!-- ECP 公钥证书列表 -->    
+	<certs>
+	   <cert env="ecptest" issueday="2013-04-24" alg="RSA" keytype="" key="1a410a8a2bde134046245f617a997809">1</cert>
+	   <cert env="ecptest" issueday="2013-04-24" alg="RSA" keytype="" key="1A410A8A2BDE134046245F617A997809">1</cert>
+	   <cert env="ecptest" issueday="2013-05-07" alg="SM2" keytype="" key="060efa498aa4174a0cd13d1d5c777924b718d64e">2</cert>
+	   <cert env="ecptest" issueday="2013-05-07" alg="SM2" keytype="" key="060EFA498AA4174A0CD13D1D5C777924B718D64E">2</cert>
+	</certs>
+</configs>

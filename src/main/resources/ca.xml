@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIGS>
+	<CA>
+		<provider>GfaCA</provider>
+		<status>true</status>
+		<className>com.cepri.bid.lb.cmm.ca.GfaCADecrypt</className>
+	</CA>
+	<CA>
+		<provider>ITRUSCA</provider>
+		<status>false</status>
+		<className>com.itrus.ca.ItrusCAUtil</className>
+	</CA>
+</CONFIGS>

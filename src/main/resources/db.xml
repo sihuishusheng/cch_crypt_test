@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DB>
+		<USER_NAME>root</USER_NAME>
+		<USER_PASS>root</USER_PASS>
+		<DB_DRIVER>com.mysql.jdbc.Driver</DB_DRIVER>
+		<DB_URL>jdbc:mysql://localhost:3306/demo</DB_URL>
+		<!-- 是否使用连接池 -->
+		<USE_POOL>true</USE_POOL>
+</DB>

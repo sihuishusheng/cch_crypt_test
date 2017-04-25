@@ -1,0 +1,8 @@
+SM2 Public Key
+      AffineX: f0923a2b5e30a1aa218df3fbc3c02d72ae91eb22e39c0e8ce7a6d93faf85e597
+      AffineY: 3171ab74ddcaf36c2e9518978719d951d4c90c4ebd5efc424a676b6c7f918a4d
+
+SM2 Private Key
+             S: ddf85a9c47a4c28255e1ffd3afb819d344a06ecf43760d7d12cf04ea69fe6a33
+
+             INSERT INTO `ecp_t_bid_file` VALUES ( 10,'C:\\encrypt', '101', 'C:\\express', '1010', '0', '-1', 1, '', 0);

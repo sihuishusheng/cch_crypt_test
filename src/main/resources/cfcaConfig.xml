@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIGS>       
+		<!-- 时间戳服务器地址210.74.41.113 -->
+		<TIME_SERVER_URL >210.74.41.113</TIME_SERVER_URL>
+		<!-- 时间戳服务器访问端口 -->
+		<TIME_SERVER_PORT>49155</TIME_SERVER_PORT>
+		<!-- 时间戳获取超时设置0为无限制 -->
+		<TIME_SERVER_TIMEOUT>60</TIME_SERVER_TIMEOUT>
+		<!--
+		<PRIVATE_CERT_PWD encrypted="false">password</PRIVATE_CERT_PWD>
+		 -->
+		<!-- 正式为............,测试为http://210.74.41.87/crl1.crl -->
+		<HTTP_CRL_URL_SGCC>http://210.74.41.87/crl1.crl</HTTP_CRL_URL_SGCC> 
+		<!-- YES为在线验证，NO为离线验证 -->
+		<VERIFY_CERT_TYPE_IS_ONLINE>NO</VERIFY_CERT_TYPE_IS_ONLINE>
+		<!-- 正式为210.74.41.105 :389，测试为210.74.41.87:389 -->
+		<LDAP_IP>http://10.10.27.5</LDAP_IP>
+		<!-- 验证端口 -->
+		<LDAP_PORT>389</LDAP_PORT>
+		
+		<JKS_NAME>swjce.jks</JKS_NAME>
+		<JKS_PASSWORD>666666</JKS_PASSWORD>
+		<SERVER_CERT_ALIAS>server_cert</SERVER_CERT_ALIAS>
+</CONFIGS>
